@@ -8,4 +8,4 @@ docker-compose up -d
 ```
 
 - http://localhost:9090
-- http://localhost:9090/graph?g0.range_input=1h&g0.expr=node_memory_Active&g0.tab=0
+- http://localhost:9090/graph?g0.range_input=1m&g0.expr=node_cpu&g0.tab=0
