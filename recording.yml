@@ -1,0 +1,11 @@
+groups:
+  - name: example
+    rules:
+    - record: node_cpu_ratio:idle
+      expr: sum(delta(node_cpu{mode="idle"}[1m])) / sum(delta(node_cpu[1m]))
+      # labels:
+      #   [ mode: idle ]
+    - record: node_cpu_ratio:user
+      expr: sum(delta(node_cpu{mode="user"}[1m])) / sum(delta(node_cpu[1m]))
+      # labels:
+      #   [ mode: user ]
