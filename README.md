@@ -1,5 +1,6 @@
 - 参考
   - https://knowledge.sakura.ad.jp/11633/
+  - https://knowledge.sakura.ad.jp/11635/
   - https://github.com/prometheus/prometheus/blob/master/documentation/examples/prometheus.yml
 
 ```
