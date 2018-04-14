@@ -2,6 +2,7 @@
   - https://knowledge.sakura.ad.jp/11633/
   - https://knowledge.sakura.ad.jp/11635/
   - https://github.com/prometheus/prometheus/blob/master/documentation/examples/prometheus.yml
+  - https://prometheus.io/docs/prometheus/latest/configuration/recording_rules/
 
 ```
 vagrant up
